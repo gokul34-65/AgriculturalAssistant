@@ -160,7 +160,7 @@ def show_usage():
     """Display usage instructions"""
     print("""
 ╔══════════════════════════════════════════════════════════════════╗
-║         KCC Data to RAG Converter - Usage Instructions          ║
+║         KCC Data to RAG Converter - Usage Instructions           ║
 ╚══════════════════════════════════════════════════════════════════╝
 
 STEP 1: Download KCC Dataset
@@ -211,7 +211,7 @@ def main():
     
     if success:
         print("\n" + "="*70)
-        print("  🎉 SUCCESS! Your data is ready for RAG!")
+        print("  SUCCESS! Your data is ready for RAG!")
         print("="*70)
         print("\nNext Steps:")
         print("1. Check the file: knowledge_base/kisan_call_centre_qa.txt")
